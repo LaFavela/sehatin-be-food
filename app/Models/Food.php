@@ -2,9 +2,6 @@
 
 namespace App\Models;
 
-use App\Enum\Activity;
-use App\Enum\Gender;
-use App\Enum\Goal;
 use Illuminate\Database\Eloquent\Concerns\HasTimestamps;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use MongoDB\Laravel\Eloquent\Model;
