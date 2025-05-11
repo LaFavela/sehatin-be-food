@@ -22,8 +22,6 @@ class FoodController
 
             $query = Food::query();
 
-            error_log($query->get());
-
             if (isset($validatedData['search'])) {
                 $query->where('name', 'like', '%' . $validatedData['search'] . '%');
             }
